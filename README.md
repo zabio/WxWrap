@@ -4,7 +4,7 @@
 
 ---
 
-  [(本人羽毛球狂热份子,时常在微信群内报名遇到此问题)]
+  [(本人羽毛球狂热份子,时常在微信群内报名遇到此问题)]()
 
   在使用微信聊天的时候经常会遇到:
   * 当IOS用户发出的微信消息显示是有换行的
@@ -16,7 +16,7 @@
 
 ##### 下载链接：
 
-[点击下载APK文件](http://www.google.com/)
+[点击下载APK文件](https://github.com/zabio/WxWrap/blob/master/sample.apk?raw=true)
 
 
 
@@ -66,6 +66,6 @@
 
 ##### 下载链接：
 
-[点击下载APK文件](http://www.google.com/)
+[点击下载APK文件](https://github.com/zabio/WxWrap/blob/master/sample.apk?raw=true)
 
-[@copyright] 转发请注明出处
+[@copyright]() 转发请注明出处
