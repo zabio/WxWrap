@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hy.wrap.MainActivity">
+
+    <EditText
+        android:id="@+id/et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="16dp"
+        android:maxHeight="300dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center|start|top"
+        android:hint="@string/please_paste"
+        android:minHeight="150dp" />
+
+    <Button
+        android:onClick="translate"
+        android:id="@+id/bt_translate"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et"
+        android:layout_margin="16dp"
+        android:text="@string/translate"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <Button
+        android:onClick="copy"
+        android:id="@+id/copy"
+        android:layout_width="163dp"
+        android:layout_height="46dp"
+        android:layout_below="@+id/et"
+        android:layout_margin="16dp"
+        android:layout_toEndOf="@+id/bt_translate"
+        android:layout_toRightOf="@+id/bt_translate"
+        android:text="@string/copy" />
+    <Button
+        android:onClick="translateAndCopy"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_below="@+id/copy"
+        android:text="@string/translate_copy" />
+
+</RelativeLayout>

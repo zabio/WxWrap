@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">IOS微信消息换行</string>
+    <string name="please_paste">请将复制好的ios用户发出的微信消息粘贴此处</string>
+    <string name="translate">转换换行符</string>
+    <string name="copy">复制到剪切板</string>
+    <string name="translate_copy">转换并复制到微信粘贴</string>
+</resources>
